@@ -29,4 +29,4 @@ app.get("/docker", async (req, res)=> {
 app.listen(3030, ()=> console.log("Running"));
 
 //comando linux abaixo:
-//docker run -d -p 3030:3030 --name bind-container -v {$pwd}:/www/app/ bind:v1
+//docker run -d -p 3030:3030 --name bind-container -v ${pwd}:/www/app/ bind:v1
